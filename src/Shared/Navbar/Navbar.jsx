@@ -107,7 +107,17 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="">
+      <div className="flex gap-2">
+        <select
+          name="language"
+          id="language"
+          className="px-2 md:px-4 py-1 rounded-md shadow-md"
+        >
+          <option value="বাংলা">বাংলা</option>
+          <option value="English" selected>
+            English
+          </option>
+        </select>
         <button className="bg-[#5c98f2] text-white px-4  md:px-6 py-1 rounded-md shadow-md md:text-[20px] font-semibold">
           Login
         </button>
